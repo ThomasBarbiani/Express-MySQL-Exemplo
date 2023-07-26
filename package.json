@@ -1,0 +1,26 @@
+{
+  "name": "expressmysql",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "main": "databases.js",
+  "scripts": {
+    "dev": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^5.0.0-alpha.2",
+    "mysql2": "^3.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
